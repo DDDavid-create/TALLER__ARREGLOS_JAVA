@@ -1,5 +1,4 @@
 import javax.swing.*;
-import javax.swing.text.Element;
 
 public class Ejercicio_10 {
     public static void main(String[] arg){
