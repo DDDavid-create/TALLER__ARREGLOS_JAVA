@@ -6,10 +6,10 @@ public class Ejercicio_11 {
         int pares = 0, impares = 0;
         int[] numeros = {12, 44, 21, 83, 32, 7, 15, 24};
 
-        for (int i = 0; i < numeros.length ; i++) {
-            if (numeros[i]%2 == 0){
+        for (int numero : numeros) {
+            if (numero % 2 == 0) {
                 pares++;
-            }else {
+            } else {
                 impares++;
             }
         }
