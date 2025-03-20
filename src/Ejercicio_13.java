@@ -7,7 +7,7 @@ public class Ejercicio_13 {
         int n = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de estudiantes a procesar"));
 
         double n1, n2, n3;
-        String nombre = "";
+        String nombre;
         String[] nombres = new String[n];
         double[] notas = new double[nombres.length];
         int valida = 0, registro = 0;//Banderas
@@ -25,7 +25,7 @@ public class Ejercicio_13 {
 
             switch (opcion) {
                 case 1://Registar informacion
-                    String respuesta ="";
+                    String respuesta;
                     do {
                         if (valida==0){
                             valida = 1;
